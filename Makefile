@@ -1,4 +1,4 @@
-SRC=main.cpp
+SRC=main.cpp field.cpp mino.cpp objects.cpp score.cpp game_screen.cpp
 OBJS=$(SRC:.c=.o)
 PROG=main.exe
 CC=g++

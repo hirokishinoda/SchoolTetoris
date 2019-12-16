@@ -1,7 +1,9 @@
 #ifndef   SCORE_HPP
 #define   SCORE_HPP
 
-void add_score();
+void init_score();
+
+void add_score(int lines);
 
 void disp_score();
 

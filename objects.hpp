@@ -8,8 +8,12 @@ typedef struct{
     int x,y;
 } t_mino;
 
-extern int field[FIELD_X][FIELD_Y];
+extern int field[FIELD_Y][FIELD_X];
 
 extern int score;
+
+extern bool gameover;
+
+extern int t_mino_buff[T_MINO_TYPE][MINO_SIZE][MINO_SIZE];
 
 #endif
