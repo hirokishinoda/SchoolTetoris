@@ -1,12 +1,16 @@
 #include "objects.hpp"
 #include "define.hpp"
+/*
+    グローバル変数を定義
+*/
 
+// フィールドオブジェクト
 int field[FIELD_Y][FIELD_X];
-
+// スコア
 int score = 0;
-
+// ゲームオーバーフラグ
 bool gameover = false;
-
+// ミノの種類を保持するオブジェクト
 int t_mino_buff[T_MINO_TYPE][MINO_SIZE][MINO_SIZE] = {{{0,0,0,0},
                                                        {1,1,1,1},
                                                        {0,0,0,0},

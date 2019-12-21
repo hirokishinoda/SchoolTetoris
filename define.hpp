@@ -35,12 +35,18 @@
 #define DOWN  3
 #define NONE  0
 
-// ブロックないことを表す
+// ブロックの存在を表す
 #define EMPTY 0
 #define EXIST 1
 
 // 加算するスコア
 #define ADD_SCORE 20
 #define SCORE_BIAS 0.25
+
+// キー操作確認時間間隔
+#define KEY_CHECK_TIME 0.175
+
+// 落下時間 
+#define DROP_CHECK_TIME 1.0
 
 #endif
