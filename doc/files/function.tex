@@ -1,0 +1,239 @@
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void init\_field(); \\ \hline
+引数  & なし                  \\ \hline
+戻り値 & なし                  \\ \hline
+内容  & フィールドをすべて0で初期化      \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & bool is\_field\_over(t\_mino mino);                                           \\ \hline
+引数  & mino : テトリミノの情報                                                               \\ \hline
+戻り値 & \begin{tabular}[c]{@{}l@{}}true : フィールド内である\\ false :  フィールド外である\end{tabular} \\ \hline
+内容  & テトリミノがフィールド内であるかを判定                                                           \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & bool is\_field\_over\_y(t\_mino mino);                                        \\ \hline
+引数  & mino : テトリミノの情報                                                               \\ \hline
+戻り値 & \begin{tabular}[c]{@{}l@{}}true : フィールド内である\\ false :  フィールド外である\end{tabular} \\ \hline
+内容  & テトリミノがy軸でフィールド内であるかを判定                                                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & bool is\_field\_over\_x(t\_mino mino);                                        \\ \hline
+引数  & mino : テトリミノの情報                                                               \\ \hline
+戻り値 & \begin{tabular}[c]{@{}l@{}}true : フィールド内である\\ false :  フィールド外である\end{tabular} \\ \hline
+内容  & テトリミノがx軸でフィールド内であるかを判定                                                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & bool is\_side\_hit (t\_mino mino);                                                            \\ \hline
+引数  & mino : テトリミノの情報                                                                               \\ \hline
+戻り値 & \begin{tabular}[c]{@{}l@{}}true : テトリミノがブロックとかぶっている\\ false :  テトリミノがブロックとかぶっている\end{tabular} \\ \hline
+内容  & テトリミノがx軸でブロックと被っているか判定                                                                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & bool is\_down\_hit (t\_mino mino);                                                            \\ \hline
+引数  & mino : テトリミノの情報                                                                               \\ \hline
+戻り値 & \begin{tabular}[c]{@{}l@{}}true : テトリミノがブロックとかぶっている\\ false :  テトリミノがブロックとかぶっている\end{tabular} \\ \hline
+内容  & テトリミノがy軸でブロックと被っているか判定                                                                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void row\_check();  \\ \hline
+引数  & なし                  \\ \hline
+戻り値 & なし                  \\ \hline
+内容  & すべての列に対して揃っているか確認する \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void pack\_block(int row); \\ \hline
+引数  & row : 列の番号                 \\ \hline
+戻り値 & なし                         \\ \hline
+内容  & 指定された列より上の列を1段詰める          \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void row\_clear(int row); \\ \hline
+引数  & row : 列の番号                \\ \hline
+戻り値 & なし                        \\ \hline
+内容  & 指定された列を消去する               \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void stack\_block(t\_mino mino); \\ \hline
+引数  & mino : テトリミノの情報                  \\ \hline
+戻り値 & なし                               \\ \hline
+内容  & ミノをフィールドに固定する                    \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void disp\_field(); \\ \hline
+引数  & なし                  \\ \hline
+戻り値 & なし                  \\ \hline
+内容  & フィールドを表示する          \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void disp(t\_mino mino) \\ \hline
+引数  & mino : テトリミノの情報         \\ \hline
+戻り値 & なし                      \\ \hline
+内容  & ゲーム画面の表示                \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void disp\_game\_over() \\ \hline
+引数  & なし                      \\ \hline
+戻り値 & なし                      \\ \hline
+内容  & ゲームオーバー画面の表示            \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void initialize(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                  \\ \hline
+戻り値 & なし                             \\ \hline
+内容  & ゲームの初期化                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void move\_block(t\_mino *mino, char key[256])                           \\ \hline
+引数  & \begin{tabular}[c]{@{}l@{}}*mino : ミノの情報\\ key[256] : キーの情報\end{tabular} \\ \hline
+戻り値 & なし                                                                           \\ \hline
+内容  & テトリミノ動かす                                                                     \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void rotate\_block(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                     \\ \hline
+戻り値 & なし                                \\ \hline
+内容  & テトリミノを回転する                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void make\_t\_mino(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                     \\ \hline
+戻り値 & なし                                \\ \hline
+内容  & テトリミノを作成する                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void move\_right(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                   \\ \hline
+戻り値 & なし                              \\ \hline
+内容  & テトリミノを右に動かす                     \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void move\_left(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                  \\ \hline
+戻り値 & なし                             \\ \hline
+内容  & テトリミノを左に動かす                    \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void move\_down(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                  \\ \hline
+戻り値 & なし                             \\ \hline
+内容  & テトリミノを下に動かす                    \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void disp\_t\_mino(t\_mino *mino) \\ \hline
+引数  & *mino : ミノの情報                     \\ \hline
+戻り値 & なし                                \\ \hline
+内容  & テトリミノを表示する                        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void init\_score() \\ \hline
+引数  & なし                 \\ \hline
+戻り値 & なし                 \\ \hline
+内容  & スコアの初期化            \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void add\_score(int lines) \\ \hline
+引数  & lines : 消した列の数             \\ \hline
+戻り値 & なし                         \\ \hline
+内容  & 消えた列数に応じたスコアの加算            \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|}
+\hline
+関数名 & void disp\_score() \\ \hline
+引数  & なし                 \\ \hline
+戻り値 & なし                 \\ \hline
+内容  & スコアの表示             \\ \hline
+\end{tabular}
+\end{table}
