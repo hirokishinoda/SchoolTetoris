@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Arch Linux) (preloaded format=platex 2019.12.23)  5 JAN 2020 18:53
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Arch Linux) (preloaded format=platex 2019.12.23)  6 JAN 2020 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,22 +271,37 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 31.
 
-(./files/objects.tex
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+
+! LaTeX Error: File `files/rule.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+
+! LaTeX Error: File `files/plan.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(./files/roles.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
 .
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+)
+(./files/objects.tex
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 1.
 ) [1
 
-]
-(./files/archtecture.tex) [2
+] (./files/archtecture.tex) [2
 
 ] (./files/function.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -297,57 +312,57 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 2.
-) [3
+)
+[3
 
 ] [4] [5] [6]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 43.
+(Font)              scaled to size 8.64899pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 43.
+(Font)              scaled to size 8.64899pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 43.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 43.
+(Font)              scaled to size 4.805pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 43.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 43.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <7> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 43.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 43.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <7> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 43.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 43.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
  [7
 
 ]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
-5.
-
-(/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 5
+1.
+ (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
- [8] [9] [10] [11] [12]
-[13] [14] [15] [16] (./main.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+ [8]
+[9] [10] [11] [12] [13] [14] [15] [16] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3776 strings out of 492763
- 47537 string characters out of 6145107
+ 3783 strings out of 492763
+ 47609 string characters out of 6145107
  560233 words of memory out of 5000000
- 8189 multiletter control sequences out of 15000+600000
+ 8192 multiletter control sequences out of 15000+600000
  15695 words of font info for 71 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  32i,16n,51p,200b,1780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (16 pages, 117128 bytes).
+Output written on main.dvi (16 pages, 117852 bytes).
