@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{ascmac}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{listings,jlisting}
+\renewcommand{\lstlistingname}{リスト}
+\lstset{
+	language=c,%
+	basicstyle=\scriptsize,%
+	numbersep=5pt,%
+	breaklines=true,%
+	breakindent=5pt,%
+	frame=single,%
+	tabsize=2,%
+	numbers=left,%
+	numberstyle=\tiny,%
+	showstringspaces=false%
+	}%
+\setlength{\columnsep}{20pt}
+\setlength{\columnwidth}{200cm}
+
+\title{テトリス}
+\author{10班}
+\date{\today}
+
+\begin{document}
+  \maketitle
+
+  \section{ルール}
+    \input{files/rule}
+  \section{計画表}
+    \input{files/plan}
+  \section{役割分担}
+    \input{files/roles}
+  \section{物の抽出とふるまい}
+    \input{files/objects}
+  \clearpage
+  \section{データ構造}
+    \input{files/archtecture}
+  \clearpage
+  \section{関数仕様}
+    \input{files/function}
+  \clearpage
+  \section{プログラムリスト}
+    %\begin{multicols}{2}
+    \lstinputlisting[caption=define.hpp,label=define]
+    {../define.hpp}
+    \lstinputlisting[caption=field.cpp,label=field]
+    {../field.cpp}
+    \lstinputlisting[caption=field.hpp,label=field_h]
+    {../field.hpp}
+    \lstinputlisting[caption=game\_screen.cpp,label=game_screen]
+    {../game_screen.cpp}
+    \lstinputlisting[caption=game\_screen.hpp,label=game_screen_h]
+    {../game_screen.hpp}
+    \lstinputlisting[caption=main.cpp,label=main]
+    {../main.cpp}
+    \lstinputlisting[caption=mino.cpp,label=mino]
+    {../mino.cpp}
+    \lstinputlisting[caption=mino.hpp,label=mino_h]
+    {../mino.hpp}
+    \lstinputlisting[caption=objects.cpp,label=objects]
+    {../objects.cpp}
+    \lstinputlisting[caption=objects.hpp,label=objects_h]
+    {../objects.hpp}
+    \lstinputlisting[caption=score.cpp,label=score]
+    {../score.cpp}
+    \lstinputlisting[caption=score.hpp,label=score_h]
+    {../score.hpp}
+    %\end{multicols}
+\end{document}

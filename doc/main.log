@@ -1,0 +1,368 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Arch Linux) (preloaded format=platex 2019.12.23)  6 JAN 2020 09:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+pLaTeX2e <2019-10-01>+1 (based on LaTeX2e <2019-10-01> patch level 1)
+(/usr/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2019/07/25 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen118
+\jsc@mmm=\dimen119
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 466.
+LaTeX Info: Redefining \sffamily on input line 469.
+LaTeX Info: Redefining \ttfamily on input line 472.
+LaTeX Info: Redefining \textmc on input line 476.
+LaTeX Info: Redefining \textgt on input line 478.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 540.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+\fullwidth=\dimen120
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 884.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 884.
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\@abstractbox=\box43
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen121
+\@lnumwidth=\dimen122
+\bibindent=\dimen123
+(/usr/share/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count91
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(/usr/share/texmf-dist/tex/latex/ascmac/ascmac.sty
+Package: ascmac 2018/03/09 v2.0h ascmac wrapper (community edition) 
+
+(/usr/share/texmf-dist/tex/latex/ascmac/tascmac.sty
+Package: tascmac 2018/03/09 v2.0h ascmac package (community edition) 
+\@savetbaselineshift=\dimen126
+\@saveybaselineshift=\dimen127
+\scb@x=\box44
+\scscb@x=\box45
+\@bw=\dimen128
+\@nbox=\box46
+\@nbody=\box47
+\@scw=\dimen129
+\ascmac@hoboxa=\box48
+\ascmac@hoboxb=\box49
+\@itemh=\dimen130
+\@iboxpos=\toks16
+\@iboxstr=\box50
+\@bwsp=\box51
+\@@bwsp=\box52
+\@bcal=\count92
+\shaderule=\dimen131
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen132
+\ar@mcellbox=\box53
+\extrarowheight=\dimen133
+\NC@list=\toks17
+\extratabsurround=\skip44
+\backup@length=\skip45
+\ar@cellbox=\box54
+)
+\everycr=\toks18
+\minrowclearance=\skip46
+)
+\rownum=\count93
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks19
+\float@box=\box55
+\@float@everytoks=\toks20
+\@floatcapt=\box56
+)
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count95
+\mult@box=\box57
+\multicol@leftmargin=\dimen134
+\c@unbalance=\count96
+\c@collectmore=\count97
+\doublecol@number=\count98
+\multicoltolerance=\count99
+\multicolpretolerance=\count100
+\full@width=\dimen135
+\page@free=\dimen136
+\premulticols=\dimen137
+\postmulticols=\dimen138
+\multicolsep=\skip47
+\multicolbaselineskip=\skip48
+\partial@page=\box58
+\last@line=\box59
+\maxbalancingoverflow=\dimen139
+\mult@rightbox=\box60
+\mult@grightbox=\box61
+\mult@gfirstbox=\box62
+\mult@firstbox=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\c@minrows=\count101
+\c@columnbadness=\count102
+\c@finalcolumnbadness=\count103
+\last@try=\dimen140
+\multicolovershoot=\dimen141
+\multicolundershoot=\dimen142
+\mult@nat@firstbox=\box81
+\colbreak@box=\box82
+\mc@col@check@num=\count104
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count105
+\lst@gtempboxa=\box83
+\lst@token=\toks21
+\lst@length=\count106
+\lst@currlwidth=\dimen143
+\lst@column=\count107
+\lst@pos=\count108
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count109
+\lst@lineno=\count110
+\lst@maxwidth=\dimen146
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count111
+\lst@skipnumbers=\count112
+\lst@framebox=\box84
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/listings/jlisting.sty
+Package: jlisting 2006/02/20 0.2 (Thor)
+\lst@nextchar=\count113
+\lst@inputfile=\read1
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\c@lstlisting=\count114
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 29.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 29.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 29.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 29.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 31.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 31.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 31.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 31.
+
+
+! LaTeX Error: File `files/rule.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+
+! LaTeX Error: File `files/plan.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(./files/roles.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+)
+(./files/objects.tex
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 1.
+) [1
+
+] (./files/archtecture.tex) [2
+
+] (./files/function.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+)
+[3
+
+] [4] [5] [6]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <7> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <7> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+ [7
+
+]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 5
+1.
+ (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+ [8]
+[9] [10] [11] [12] [13] [14] [15] [16] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 3783 strings out of 492763
+ 47609 string characters out of 6145107
+ 560233 words of memory out of 5000000
+ 8192 multiletter control sequences out of 15000+600000
+ 15695 words of font info for 71 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 32i,16n,51p,200b,1780s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (16 pages, 117852 bytes).
