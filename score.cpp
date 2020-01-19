@@ -9,7 +9,7 @@ void init_score(){
 
 // スコアの加算
 void add_score(int lines){
-    score += ADD_SCORE * (1 + SCORE_BIAS*lines);
+    score += ADD_SCORE * (1 + (lines-1) * SCORE_BIAS);
 }
 
 // スコアの表示
