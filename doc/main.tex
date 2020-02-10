@@ -1,4 +1,5 @@
 \documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{color}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{ascmac}
 \usepackage[table,xcdraw]{xcolor}
@@ -21,22 +22,31 @@
 \setlength{\columnsep}{20pt}
 \setlength{\columnwidth}{200cm}
 
-\title{テトリス}
-\author{10班}
-\date{\today}
-
 \begin{document}
-  \maketitle
+  % 表紙
+  \begin{center}
+    {\Large 平成30年度ソフトウェア設計\\ テトリスの作成}\par
+    \vspace{15mm}
+    {\today}\par
+    \vspace{100mm}
+    {\large 班名：10班}\par
+    {\large 篠田拓樹(班長) 伊崎龍河(副班長) 秋元駿\\ 
+    江尻姫花 尾畑賢太 本田歩 宮本雅也}
+  \end{center}
+  \thispagestyle{empty}
   \clearpage
+  \addtocounter{page}{-1}
+  % 目次
+  \tableofcontents
+  \clearpage
+  % 本文
   \section{要求仕様}
     \input{files/req}
-  \clearpage
   \section{ルール}
     \input{files/rule}
   \clearpage
   \section{計画表}
-    \input{files/plan}
-  \clearpage
+    \input{files/plane}
   \section{役割分担}
     \input{files/roles}
   \clearpage
@@ -45,12 +55,20 @@
   \clearpage
   \section{物の抽出とふるまい}
     \input{files/objects}
-  \clearpage
   \section{データ構造}
     \input{files/archtecture}
   \clearpage
   \section{関数仕様}
     \input{files/function}
+  \clearpage
+  \section{状態遷移}
+    \input{files/statemove}
+  \clearpage
+  \section{操作方法}
+    \input{files/operation}
+  \clearpage
+  \section{実行画面}
+    \input{files/execute}
   \clearpage
   \section{作成後の批評・考察}
     \input{files/coment}
