@@ -1,7 +1,8 @@
-\documentclass[11pt,a4paper]{jsarticle}
+\documentclass[11pt,a4paper,dvipdfmx]{jsarticle}
 \usepackage[dvipdfmx]{color}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{ascmac}
+\usepackage{lscape}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{float}
 \usepackage{multicol}
@@ -9,7 +10,7 @@
 \renewcommand{\lstlistingname}{リスト}
 \lstset{
 	language=c,%
-	basicstyle=\scriptsize,%
+	basicstyle=\small,%
 	numbersep=5pt,%
 	breaklines=true,%
 	breakindent=5pt,%
@@ -42,6 +43,8 @@
   % 本文
   \section{要求仕様}
     \input{files/req}
+  \section{用語定義}
+    \input{files/def}
   \section{ルール}
     \input{files/rule}
   \clearpage
@@ -61,9 +64,8 @@
   \section{関数仕様}
     \input{files/function}
   \clearpage
-  \section{状態遷移}
+  \section{状態遷移表}
     \input{files/statemove}
-  \clearpage
   \section{操作方法}
     \input{files/operation}
   \clearpage
@@ -77,27 +79,39 @@
     %\begin{multicols}{2}
     \lstinputlisting[caption=define.hpp,label=define]
     {../define.hpp}
+  \clearpage
     \lstinputlisting[caption=field.cpp,label=field]
     {../field.cpp}
+  \clearpage
     \lstinputlisting[caption=field.hpp,label=field_h]
     {../field.hpp}
+  \clearpage
     \lstinputlisting[caption=game\_screen.cpp,label=game_screen]
     {../game_screen.cpp}
+  \clearpage
     \lstinputlisting[caption=game\_screen.hpp,label=game_screen_h]
     {../game_screen.hpp}
+  \clearpage
     \lstinputlisting[caption=main.cpp,label=main]
     {../main.cpp}
+  \clearpage
     \lstinputlisting[caption=mino.cpp,label=mino]
     {../mino.cpp}
+  \clearpage
     \lstinputlisting[caption=mino.hpp,label=mino_h]
     {../mino.hpp}
+  \clearpage
     \lstinputlisting[caption=objects.cpp,label=objects]
     {../objects.cpp}
+  \clearpage
     \lstinputlisting[caption=objects.hpp,label=objects_h]
     {../objects.hpp}
+  \clearpage
     \lstinputlisting[caption=score.cpp,label=score]
     {../score.cpp}
+  \clearpage
     \lstinputlisting[caption=score.hpp,label=score_h]
     {../score.hpp}
+  \clearpage
     %\end{multicols}
 \end{document}

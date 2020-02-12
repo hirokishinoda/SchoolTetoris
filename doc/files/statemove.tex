@@ -1,0 +1,32 @@
+状態遷移表を表\ref{state}に示す．
+状態遷移表を作成することでシステムにおいてやってはならないこと
+を可視化することが出来た．また，今回作成することが出来なかったが
+状態遷移図を作成することによってシステムの状態の流れを可視化すること
+が出来，より具体的に画面遷移等の状態の変化を見ることが出来るようになる．
+
+\begin{landscape}
+\begin{table}[htb]
+\centering
+\caption{状態遷移表}
+\label{state}
+\footnotesize
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+\hline
+状態番号 & 状態名          & 上下左右ボタン & \begin{tabular}[c]{@{}l@{}}テトリミノが\\ ブロックに触れた\end{tabular} & \begin{tabular}[c]{@{}l@{}}テトリミノが\\ 下の壁に触れた\end{tabular} & \begin{tabular}[c]{@{}l@{}}テトリミノが\\ 下左右の壁を超えた\end{tabular} & \begin{tabular}[c]{@{}l@{}}テトリミノが\\ ブロックに被った\end{tabular} & 行が揃っていた & 1秒経過 & なし                \\ \hline
+S0   & テトリミノ操作可能    & S12     & S2                                                        & S2                                                       &                                                            &                                                           &         & S10  & S0                \\ \hline
+S1   & テトリミノの生成     &         & S13                                                       &                                                          &                                                            &                                                           &         &      & S0                \\ \hline
+S2   & テトリミノを固定     &         &                                                           &                                                          &                                                            &                                                           &         &      & S3                \\ \hline
+S3   & 行が何列揃っているか確認 &         &                                                           &                                                          &                                                            &                                                           & S4      &      &                   \\ \hline
+S4   & 行の削除         &         &                                                           &                                                          &                                                            &                                                           &         &      & S5                \\ \hline
+S5   & 行を詰める        &         &                                                           &                                                          &                                                            &                                                           &         &      & S6                \\ \hline
+S6   & スコアの倍率計算     &         &                                                           &                                                          &                                                            &                                                           &         &      & S7                \\ \hline
+S7   & スコアの加算       &         &                                                           &                                                          &                                                            &                                                           &         &      & S1                \\ \hline
+S8   & テトリミノを右に移動   &         &                                                           &                                                          &                                                            &                                                           &         &      & S0                \\ \hline
+S9   & テトリミノを左に移動   &         &                                                           &                                                          &                                                            &                                                           &         &      & S0                \\ \hline
+S10  & テトリミノを下に移動   &         &                                                           &                                                          &                                                            &                                                           &         &      & S0                \\ \hline
+S11  & テトリミノを回転     &         &                                                           &                                                          &                                                            &                                                           &         &      & S0                \\ \hline
+S12  & 範囲外判定        &         &                                                           &                                                          & S0                                                         & S0                                                        &         &      & \{S8,S9,S10,S11\} \\ \hline
+S13  & ゲームオーバー(終了)  &         &                                                           &                                                          &                                                            &                                                           &         &      & S13               \\ \hline
+\end{tabular}
+\end{table}
+\end{landscape}
