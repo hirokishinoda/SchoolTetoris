@@ -1,8 +1,8 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Arch Linux) (preloaded format=platex 2020.1.23)  10 FEB 2020 20:42
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Arch Linux) (preloaded format=platex 2020.1.23)  13 FEB 2020 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main
+**main.tex
 (./main.tex
 pLaTeX2e <2019-10-01>+1 (based on LaTeX2e <2019-10-01> patch level 1)
 (/usr/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls
@@ -373,14 +373,16 @@ File: ./soft_img/threelinebefore.png Graphic file (type bmp)
 <./soft_img/threelinebefore.png>
 File: ./soft_img/threelineafter.png Graphic file (type bmp)
 <./soft_img/threelineafter.png>
-File: ./soft_img/tetoris.png Graphic file (type bmp)
-<./soft_img/tetoris.png>
+File: ./soft_img/tetorisbefore.png Graphic file (type bmp)
+<./soft_img/tetorisbefore.png>
+File: ./soft_img/tetorisafter.png Graphic file (type bmp)
+<./soft_img/tetorisafter.png>
 File: ./soft_img/gameover.png Graphic file (type bmp)
 <./soft_img/gameover.png>
 ) [14
 
 ] [15] [16]
-[17] [18] [19] [20] (./files/coment.tex) [21
+[17] [18] [19] [20] [21] (./files/coment.tex) [22
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -401,9 +403,9 @@ LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <9> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 81.
- [22
+ [23
 
-] [23]
+] [24]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 8
@@ -416,45 +418,41 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
- [24
+ [25
 
-] [25]
+] [26]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 84.
- [26] [27] [28]
-[29
-
-] [30
+ [27] [28] [29]
+[30
 
 ] [31
 
 ] [32
 
-] [33] [34
+] [33
 
-] [35] [36] [37
+] [34] [35
 
-] [38
+] [36] [37] [38
 
-] [39] [40
+] [39
 
-] [41
+] [40] [41
 
 ] [42
 
+] [43
+
 ]
-(./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3992 strings out of 492763
- 51198 string characters out of 6145108
+ 3998 strings out of 492763
+ 51379 string characters out of 6145108
  472143 words of memory out of 5000000
- 8348 multiletter control sequences out of 15000+600000
+ 8353 multiletter control sequences out of 15000+600000
  15504 words of font info for 70 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,16n,51p,446b,1809s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,16n,51p,450b,1809s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (43 pages, 154224 bytes).
+Output written on main.dvi (44 pages, 154632 bytes).

@@ -27,8 +27,8 @@
 \contentsline {subsection}{\numberline {12.7}3行消去のスコア加算}{14}% 
 \contentsline {subsection}{\numberline {12.8}4行消去のスコア加算}{14}% 
 \contentsline {subsection}{\numberline {12.9}ゲームオーバー画面}{14}% 
-\contentsline {section}{\numberline {13}作成後の批評・考察}{21}% 
-\contentsline {subsection}{\numberline {13.1}プレイした人の感想}{21}% 
-\contentsline {subsection}{\numberline {13.2}改善点}{21}% 
-\contentsline {subsection}{\numberline {13.3}設計・作成に関する反省}{21}% 
-\contentsline {section}{\numberline {14}プログラムリスト}{22}% 
+\contentsline {section}{\numberline {13}作成後の批評・考察}{22}% 
+\contentsline {subsection}{\numberline {13.1}プレイした人の感想}{22}% 
+\contentsline {subsection}{\numberline {13.2}改善点}{22}% 
+\contentsline {subsection}{\numberline {13.3}設計・作成に関する反省}{22}% 
+\contentsline {section}{\numberline {14}プログラムリスト}{23}% 
